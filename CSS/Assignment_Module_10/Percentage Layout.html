@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Layout</title>
+    <style>
+        body {
+            display: grid;
+            justify-content: center;
+            place-items: center;            
+        }
+
+        .container {
+            background-color: rgb(246, 246, 23);
+            width: 800px;
+            height: 800px;
+            align-items: center;
+            display: flex;
+            border: 2px solid black;
+        }
+
+        .col1 {
+            background-color: rgb(52, 240, 224);
+            flex-basis: 70%;
+            height: 500px;
+            font-size: 90px;
+            border: 1px solid black;
+        }
+
+        .col2 {
+            background-color: rgb(87, 5, 164);
+            flex-basis: 30%;
+            height: 500px;
+            font-size: 90px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col1">Column 1</div>
+        <div class="col2">Column 2</div>
+    </div>
+</body>
+
+</html>
