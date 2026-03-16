@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Box with vw</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;   
+            align-items: center;       
+        }
+
+        .hero-section{
+
+            background-color: rgb(192, 211, 255);
+            background-size: cover;
+            height: 100vh;
+            width:60vw;        
+            max-width: 600px;
+            min-width: 280px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            display: grid;
+        }
+
+        h1,p{
+            font-size: 40px;
+        }
+            
+    </style>
+</head>
+<body>
+   <div class="hero-section">
+        <h1>Welcome To Fork Infosystems</h1>
+        <p>Computer Programming Institute at Vidyanagar, Karad 
+            for Learning Programming Languages.</p>
+        <p>C,C++,Java,Angular,C# .Net,PHP</p>
+    </div> 
+</body>
+</html>
